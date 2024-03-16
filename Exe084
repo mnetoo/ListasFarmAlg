@@ -1,0 +1,18 @@
+program listahorasum;
+
+var
+    segundos, horas, minutos, segundosRestantes: longint;
+
+begin
+    
+    readln(segundos);
+
+    horas := segundos div 3600;
+    segundosRestantes := segundos mod 3600;
+
+    minutos := segundosRestantes div 60;
+    segundosRestantes := segundosRestantes mod 60;
+    
+    writeln(horas,':', minutos,':', segundosRestantes);
+    
+end.
