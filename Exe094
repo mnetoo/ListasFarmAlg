@@ -1,0 +1,12 @@
+program produto;
+
+var x, y, desc: longint;
+
+begin
+
+	read(x);
+	read(y);
+	desc := x - y;
+	writeln(desc);
+	
+end.
