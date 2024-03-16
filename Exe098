@@ -1,0 +1,11 @@
+program tercparte;
+
+var x, result: real;
+
+begin
+
+	read(x);
+	result := x/3;
+	writeln(result:0:2);
+	
+end.
