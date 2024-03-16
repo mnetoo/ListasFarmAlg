@@ -1,0 +1,12 @@
+program antesuc;
+
+var x, ant, suc: integer;
+
+begin
+
+	read(x);
+	ant := x - 1;
+	suc := x + 1;
+	writeln(suc, ' ', ant);
+	
+end.
