@@ -1,0 +1,14 @@
+program volumeesfera;
+
+var d, r, volume: real;
+const pi=3.14;
+
+begin
+
+    
+    read(d);
+    r:=d/2;
+    volume:=((4*pi)/3)*r*r*r;
+    writeln(volume:2:2);
+    
+end.
