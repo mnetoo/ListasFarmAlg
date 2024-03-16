@@ -1,0 +1,12 @@
+program somadoisnumeros;
+
+    var x, y, soma:integer;
+    
+begin
+    
+    read(x);
+    read(y);
+    soma:=(x*x*x)+x*y;
+    writeln(soma);
+    
+end.
