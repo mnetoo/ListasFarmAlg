@@ -1,0 +1,16 @@
+program notas;
+
+var p1, p2, p3, calculosoma, calculodivisao: integer;
+
+begin
+
+	read(p1);
+	read(p2);
+	read(p3);
+	calculosoma := p1 + 2 * p2 + 3 * p3;
+	calculodivisao := calculosoma div (1 + 2 + 3);
+	writeln(calculodivisao);
+	
+end.
+	
+	
