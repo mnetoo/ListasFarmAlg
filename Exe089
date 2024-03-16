@@ -1,0 +1,15 @@
+program custocarro;
+
+var cf, imdist, impt, sm: extended;
+
+
+begin
+
+    read(cf);
+    imdist:= cf * 0.28;
+    impt:= cf * 0.45;
+    sm:= cf + imdist + impt;
+    writeln(sm:0:0);
+    
+    
+end.
