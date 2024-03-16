@@ -1,0 +1,13 @@
+program listasomaum;
+
+	var x, y: integer;
+	var resultado: real;
+
+begin
+
+	read(x);
+	read(y);
+	resultado:=(x/y + y/x);
+	writeln(resultado:2:3);
+
+end.
