@@ -1,0 +1,13 @@
+program iluminacao;
+
+var x, y, mdois, pot: integer;
+
+begin
+
+    read(x);
+    read(y);
+    mdois:=x*y;
+    pot:=mdois*18;
+    writeln(mdois, ' ', pot);
+    
+end.
