@@ -1,0 +1,11 @@
+program dinheiro;
+
+var     troco, calc: longint;
+
+begin
+
+    read(troco);
+    calc:= troco div 100;
+    write(trunc(calc));
+    
+end.
