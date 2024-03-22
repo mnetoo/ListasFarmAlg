@@ -1,0 +1,16 @@
+program salariopref;
+
+var
+    x, y, m: double;
+    
+begin
+
+    read(x, y);
+    m:= x * 0.3;
+    
+    if (y <= m) then
+        writeln('SIM')
+    else
+        writeln('NAO');
+        
+end.
