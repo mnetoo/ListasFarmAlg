@@ -1,0 +1,15 @@
+program entre;
+
+var 
+    x: integer;
+
+begin
+
+
+    read (x);
+    if (x > 20) and (x < 90) then
+        writeln ('SIM')
+    else
+        writeln ('NAO')
+
+end.
