@@ -1,0 +1,16 @@
+program pareimpar;
+
+var
+    x, d: longint;
+    
+begin
+
+    read(x);
+    d:= x mod 2;
+    
+    if (d= 0) then
+        writeln('PAR')
+    else
+        writeln('IMPAR');
+        
+end.
