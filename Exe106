@@ -1,0 +1,15 @@
+program quadradoecubo;
+
+var
+    a: integer;
+    
+begin
+
+    read(a);
+    
+    if a >= 0 then
+        writeln(a*a*a)
+    else
+        writeln(a*a);
+        
+end.
