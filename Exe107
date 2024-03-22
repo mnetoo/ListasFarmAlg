@@ -1,0 +1,15 @@
+program multiplo;
+
+var x, m: longint;
+
+begin
+
+    read(x);
+    m:= x mod 3;
+    
+    if m = 0 then
+        writeln('SIM')
+    else
+        writeln('NAO');
+        
+end.
