@@ -10,7 +10,7 @@ begin
     read(b);
     read(c);
     
-    p:= (a+b+c) div 2;
+    p:= (a+b+c) / 2;
     calc:= p * ((p-a)*(p-b)*(p-c));
     calcfinal:= sqrt(calc);
     
