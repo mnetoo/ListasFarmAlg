@@ -1,0 +1,17 @@
+program divisivel;
+
+var 
+    x, d, b: longint;
+    
+begin
+
+    read(x);
+    d:= (x mod 3); 
+    b:= (x mod 7);
+    
+    if (d = 0) and (b = 0) then
+        writeln('SIM')
+    else
+        writeln('NAO');
+        
+end.
