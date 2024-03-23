@@ -1,0 +1,14 @@
+program unidade;
+
+var
+    x, divisao, divisao2: longint;
+    
+begin
+    
+    read(x);
+    divisao:= x div 100;
+    divisao2:= divisao mod 10;
+    
+    writeln(divisao2);
+    
+end.
