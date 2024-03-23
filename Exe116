@@ -1,0 +1,16 @@
+program variaveis;
+
+var
+    a, i: longint;
+    
+begin
+
+    read(a);
+    i:= a mod 2;
+    
+    if (i <> 0) and (a < 0) and (a < -20) or (i = 0) and (a > 0) and (a > 7) then
+        writeln('SIM')
+        
+    else
+        write('NAO');
+end.
