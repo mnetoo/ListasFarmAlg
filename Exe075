@@ -1,0 +1,13 @@
+program unidade;
+
+var
+    x, divisao: longint;
+    
+begin
+    
+    read(x);
+    divisao:= x mod 10;
+    
+    writeln(divisao);
+    
+end.
