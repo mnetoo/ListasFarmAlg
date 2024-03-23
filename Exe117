@@ -1,0 +1,16 @@
+program valores;
+
+var
+    x, y, soma: integer;
+    
+begin
+
+    read(x, y);
+    soma:= x + y;
+    
+        if soma > 10 then
+            write(x)
+        else
+            write(y);
+            
+end.
