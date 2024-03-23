@@ -1,0 +1,17 @@
+program somanumeros;
+
+var
+    x, y, soma: longint;
+    
+begin
+
+    read(x, y);
+    soma:= x + y;
+    
+        if (soma > 20) then
+            write(soma + 8)
+            
+        else 
+            write(soma - 5);
+            
+end.
