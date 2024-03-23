@@ -1,0 +1,13 @@
+program finito;
+
+var
+    n, a1, an, sn: longint;
+    
+begin
+
+    read(n , a1, an);
+    sn:= ((a1 + an) * n) div 2;
+    
+    writeln(sn);
+    
+end.
